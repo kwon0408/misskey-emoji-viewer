@@ -53,7 +53,7 @@ function onReadAPIFallback(request, status, error) {
 }
 
 function onReadAPIFail(request, status, error) {
-    alert('0 emojis loaded');
+    alert('failed to load emojis');
 }
 
 function displayEmojis() {
